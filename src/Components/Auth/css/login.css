@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: 'Poppins',
+    sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+body{
+    background-color: #222;
+    color: #eee;
+}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+}
+
+#myVideo {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    filter: opacity(0.10);
+}
+
+.container-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+
+.container-login-box,
+.container-login-btn{    
+    width: 246px;
+}
+
+.container-login-box-user,
+.container-login-box-pass{
+    height: 40px;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+
+
+.container-login-box,
+.container-login-btn{
+    margin-top: 20px;
+    
+}
+
+
+.container-login-btn{
+    cursor: pointer;
+    height: 40px;
+    background-color: #4cddff;
+    color: fff;
+    border-radius: 4px;
+    padding: 0 10px;
+}
